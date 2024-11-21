@@ -251,3 +251,32 @@ body{
   .top-job-section div.job_listings .load_more_jobs strong {
     margin-right: 20px;
 }  
+
+/* End Top Jobs */
+
+/* yeucau 4 */
+
+.site-main .entry-content div.job_listings div.job_listings {
+    display: flex; /* Đặt container sử dụng flexbox */
+    flex-wrap: wrap; /* Đảm bảo các phần tử sẽ xuống dòng nếu không đủ chỗ */
+    gap: 20px; /* Khoảng cách giữa các job (tuỳ chỉnh theo nhu cầu) */
+}
+
+.site-main .entry-content div.job_listings div.job_listings article {
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.16);
+    margin-bottom: 25px;
+    border-radius: 5px;
+    padding: 30px;
+    position: relative;
+    flex: 0 1 calc(50% - 20px); /* Mỗi job chiếm 50% chiều rộng trừ khoảng cách */
+    overflow: hidden;
+    align-items: flex-start;
+    box-sizing: border-box; /* Đảm bảo padding/margin không ảnh hưởng kích thước */
+}
+
+.titles .entry-title a {
+    font-weight: bold;
+    text-decoration: none;
+}
+/* end yeucau4 */
