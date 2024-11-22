@@ -5579,7 +5579,7 @@ JOB LISTING PAGE
 }
 
 .site-main .entry-content div.job_listings div.job_listings article .company-name:before {
-  content: "@";
+  content: "";
 }
 
 .site-main .entry-content div.job_listings div.job_listings article .entry-meta {
